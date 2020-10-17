@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Агбис.тест</title>
+</head>
+
+<body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+
+          <div class="header-logo">
+            <h1>Хим.чист</h1>
+          </div>
+
+          <nav class="header-nav">
+            <ul class="header-nav-menu">
+              <li><a href="javascript:;">Информация</a></li>
+              <li><a href="javascript:;">Услуги</a></li>
+              <li><a href="javascript:;">Товары</a></li>
+              <li><a href="javascript:;">Сервисы</a></li>
+              <li><a href="javascript:;">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-btn-wrap">
+            <button class="header-menu-btn"><span></span></button>
+
+            <div class="header-profile">
+              <a href="javascript:;" class="header-profile-link">Мой профиль</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="header-mega-menu">
+
+          <div class="categories">
+            <div class="category-title">Предоставляемые услуги:</div>
+
+            <ul class="category-list">
+              <li class="dry-cleaner" onclick="showCategory(['category-dry-cleaner'])">Химчистка</li>
+              <li class="disinfection" onclick="showCategory(['category-dry-cleaner'])">Дезинфекция</li>
+              <li class="cleaning" onclick="showCategory(['category-dry-cleaner'])">Клининг</li>
+            </ul>
+          </div>
+
+          <div class="category category-dry-cleaner">
+            <div class="category-title">Наименование услуги:</div>
+
+            <ul class="category-list">
+              <li onclick="showCategory(['category-product'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-product'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-product'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-product'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-product'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-product'])">Химчистка одежды</li>
+            </ul>
+          </div>
+
+          <div class="category category-product">
+            <div class="category-title">Категория изделия:</div>
+
+            <ul class="category-list">
+              <li onclick="showCategory(['category-name-next'])">Верхняя одежда</li>
+              <li onclick="showCategory(['category-name-next'])">Повседневная одежда</li>
+              <li onclick="showCategory(['category-name-next'])">Головные уборы</li>
+              <li onclick="showCategory(['category-name-next'])">Нижнее бельё</li>
+              <li onclick="showCategory(['category-name-next'])">Постельное бельё</li>
+            </ul>
+          </div>
+
+          <div class="category category-name-next">
+            <div class="category-title">Наименование услуги:</div>
+
+            <ul class="category-list">
+              <li onclick="showCategory(['category-name-next-1'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-name-next-1'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-name-next-1'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-name-next-1'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-name-next-1'])">Химчистка одежды</li>
+              <li onclick="showCategory(['category-name-next-1'])">Химчистка одежды</li>
+            </ul>
+          </div>
+
+          <div class="category category-name-next-1">
+            <div class="category-title">Наименование услуги:</div>
+
+            <ul class="category-list">
+              <li>Химчистка одежды</li>
+              <li>Химчистка одежды</li>
+              <li>Химчистка одежды</li>
+              <li>Химчистка одежды</li>
+              <li>Химчистка одежды</li>
+              <li>Химчистка одежды</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <main>
+      <section class="product">
+        <div class="container">
+          <div class="product-wrap">
+
+            <div class="product-img">
+              <img src="assets/img/1.jpg" alt="img">
+
+              <div class="preview-img">
+                <div class="img-wrap"><img src="assets/img/1.jpg" alt="img"></div>
+                <div class="img-wrap"><img src="assets/img/1.jpg" alt="img"></div>
+                <div class="img-wrap"><img src="assets/img/1.jpg" alt="img"></div>
+              </div>
+
+            </div>
+
+            <div class="product-info">
+              <h2>Кофта женская</h2>
+
+              <div class="product-img">
+                <img src="assets/img/1.jpg" alt="img">
+              </div>
+
+              <div class="product-row">
+                <div class="product-assets-name">Наименование услуги:</div>
+                <div class="product-assets-value">Химчистка одежды</div>
+              </div>
+
+              <div class="product-row">
+                <div class="product-assets-name">Категория изделия:</div>
+                <div class="product-assets-value">Повседневная</div>
+              </div>
+
+              <div class="product-row">
+                <div class="product-assets-name">Наименование изделия:</div>
+                <div class="product-assets-value">Кофта</div>
+              </div>
+
+              <div class="product-row">
+                <div class="product-assets-name">Материал изделия:</div>
+                <div class="product-assets-value">Трикотаж</div>
+              </div>
+
+              <div class="product-row price-row">
+                <div class="product-counter">
+                  <input type="number"> шт.
+                </div>
+              
+                <div class="product-price">
+                  <div class="price-value">220 руб.</div>
+                  <span>стоимость услуги</span>
+                </div>
+              </div>  
+              
+              <div class="product-row btn-row">
+                <button class="product-btn sale">Применить скидку</button>
+                <button class="product-btn basket">Добавить в корзину</button>
+              </div> 
+
+            </div>
+
+            <div class="more-product">
+              <h3>Другие продукты:</h3>
+              <p>В виде слайдера</p>
+              <div class="more-product-wrap">
+                <div class="preview-img">
+                  <div class="img-wrap"><img src="assets/img/1.jpg" alt="img"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
